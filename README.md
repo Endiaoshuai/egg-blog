@@ -1,16 +1,33 @@
-# express-douban
-基于express框架的前后端分离豆瓣项目
+# simple
 
-EJS常用标签
 
-<% %>流程控制标签
 
-<%= %>输出标签（原文输出HTML标签）
+## QuickStart
 
-<%- %>输出标签（HTML会被浏览器解析）
+<!-- add docs here for user -->
 
-<%# %>注释标签
+see [egg docs][egg] for more detail.
 
-% 对标记进行转义
+### Development
 
--%>去掉没用的空格
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
+```
+
+### Deploy
+
+```bash
+$ npm start
+$ npm stop
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
+- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+
+
+[egg]: https://eggjs.org
